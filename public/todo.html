@@ -5,12 +5,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> Organizer</title>
+	<link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
 	<link rel = "Stylesheet" href = "../public/todo.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
 </head>
 <body>
-	<h1>Seep's organizer application</h1>
-	<script src="./todo.js"></script>
+	<div class="page-header">
+		<h1>Organize your Life</h1>
+		<h4><em>Unclutter your brain and use this task organizer.</em></h4>
+	</div>
+	<div class="form-table">
+		<h3>Create a new To-Do!</h3>
+		<form>
+					<label for="taskID">Assign task id</label>
+					<input name="taskId" type="number">
+
+					<label for="addTask">Add new task</label>
+					<input name="addTask" type="text">
+
+					<label for="addDescription">Describe your task</label>
+					<input name="addDescription" type="textarea">
+
+					<label for="addDate">Date of completion</label>
+					<input name="addDate" type="date">
+
+		   	 <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div>
+ <script src="./todo.js"></script>
 </body>
 </html>

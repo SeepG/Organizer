@@ -1,0 +1,22 @@
+
+h1, h2 {
+	color: rgb(246, 107, 7);
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+}
+
+p {
+	color: rgb(158, 201, 241);
+}
+
+.page-header {	
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.form-table {
+	background-color: rgb(178, 211, 238);
+	padding: 20px 20px 20px 40px;
+}
