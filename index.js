@@ -6,13 +6,11 @@ const Todo = require('./models/todo')
 const router = require('./router/todo-routes')
 require('dotenv').config()
 
-
-// body-parser config
+// body-parser config//Built-in middleware func in Express.
+//Parses incoming requests with JSON payloads,based on body-parser.
 app.use(express.json())
 app.use('/', router)
-
-//Built-in middleware func in Express.
-//Parses incoming requests with JSON payloads,based on body-parser.
+app.use(express.static('public'));
 
 // connecting to database
 // const mongoURI = 'mongodb://localhost/tododb'
