@@ -4,34 +4,33 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> Organizer</title>
+	<title>Organizer</title>
 	<link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
-	<link rel = "Stylesheet" href = "../public/todo.css">
+	<link rel = "stylesheet" href = "../public/todo.css">
 </head>
 <body>
 	<div class="page-header">
 		<h1>Organize your Life</h1>
-		<h4><em>Unclutter your brain and use this task organizer.</em></h4>
+		<h4><em>Unclutter your brain and use this task organizer</em></h4>
 	</div>
 	<div class="form-table">
-		<h3>Create a new To-Do!</h3>
 		<form>
 					<label for="taskID">Assign task id</label>
-					<input name="taskId" type="number">
+					<input name="taskId" type="number" placeholder="Enter task id">
 
 					<label for="addTask">Add new task</label>
-					<input name="addTask" type="text">
+					<input name="addTask" type="text" placeholder="Enter task">
 
 					<label for="addDescription">Describe your task</label>
-					<input name="addDescription" type="textarea">
+					<input name="addDescription" type="textarea" placeholder="Describe task">
 
 					<label for="addDate">Date of completion</label>
 					<input name="addDate" type="date">
 
-		   	 <button type="submit" class="btn btn-primary">Submit</button>
+					<button type="submit" class="btn btn-primary btn-lg">CreateTo-Do</button>					
 		</form>
 	</div>
  <script src="./todo.js"></script>
